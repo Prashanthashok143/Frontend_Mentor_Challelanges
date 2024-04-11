@@ -1,0 +1,187 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+  font-family:Outfit;
+  font-weight: 400;
+}
+td{
+border-bottom:3px ridge white; 
+text-align:justify;
+padding:20px 0 0 20px;
+}
+h4{
+color:hsl(331, 51%, 31%)
+}
+#Preparation{
+background-color: hsl(331, 100%, 98%);
+padding: 10px 10px 0 20px;
+height: 150px;
+width: 200px;
+border-radius: 10px;
+}
+h3{
+color: hsl(30, 68%, 37%);
+}
+
+td b{
+color: hsl(30, 68%, 37%);
+}
+ol li::marker{
+font-weight: bold;
+}
+ol li{
+padding:20px 10px;
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    
+    body{
+        background-color:   white;
+        margin: 0px;
+    }
+    h1{
+        width: 300px;
+    }
+    .RecipePara{
+        width: 300px;
+        position: relative;
+        left: 20px;
+    }
+    #Preparation{
+      position: relative;
+      left: 20px;
+      top: 10px;
+      font-size: 16px;
+      width: 250px;
+      height: 150px;
+      padding: 0 0 0 -50px;
+     }
+        img{
+            height: 100px;
+            width: 100%;
+        }
+        #Ingredients{
+            position: relative;
+            top: 30px;
+            left: 23px;
+            width: 300px;
+        }
+        .Instructions{
+        position: relative;
+        left: 20px;
+        top: 10px;
+        margin-top: 40px;
+        }
+        #Instructions{
+            position: relative;
+            top: 0px;
+            /* left: 20px; */
+            width: 280px;
+        }
+        #Nutrition{
+            position: relative;
+            left: 20px;
+            top: 50px;
+            width: 300px;
+        }
+        hr{
+            position: relative;
+            top: 30px;
+        }
+        .attribution{
+            position: relative;
+            top: 60px;
+            left: -75px;
+            display: flex;
+            flex-direction: column;
+        }
+        table{
+            position: relative;
+            left: 30px;
+        }
+
+}
+@media screen and (min-width:768px) and (max-width:1440px){
+    body{
+        background-color:  hsl(330, 100%, 98%);
+    }
+    #Box{
+        background-color: white;
+       position: relative;
+       top: 50px;
+       left: 180px;
+      width: 1000px;
+      border-radius: 10px;
+     
+    }
+    img{
+        position: relative;
+        top: 30px;
+        left: 80px;
+        height: 200px;
+        width: 800px;
+        border-radius: 10px;
+    }
+    #BoxContent{
+        width: 900px;
+    }
+    h1{
+       position: relative;
+       top: 20px;
+       left:80px;
+    }
+    .RecipePara{
+        position: relative;
+        left: 80px;
+    }
+    #Preparation{
+      position: relative;
+      left: 60px;
+      top: 10px;
+      font-size: 16px;
+        width: 100%;  
+     height: 150px;
+      padding: 0 0 0 -50px;
+     }
+       
+    #Ingredients{
+            position: relative;
+            top: 30px;
+            left: 80px;
+            width: 300px;
+        }
+        .Instructions{
+        position: relative;
+        left: 80px;
+        top: 10px;
+        margin-top: 40px;
+        }
+        #Instructions{
+            position: relative;
+            top: 0px;
+            left: 60px;
+            width: 100%;
+        }
+        #Nutrition{
+            position: relative;
+            left: 80px;
+            top: 50px;
+            width: 300px;
+        }
+        hr{
+            position: relative;
+            top: 30px;
+            left: 40px;
+        }
+        .attribution{
+            position: relative;
+            left: 0px;
+            display: flex;
+            flex-direction: column;
+        }
+        table{
+            position: relative;
+            left: 30px;
+        }
+
+}
