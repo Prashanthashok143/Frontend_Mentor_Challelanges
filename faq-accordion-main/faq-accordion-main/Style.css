@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+   
+}
+/* - White: hsl(0, 0%, 100%)
+- Light pink: hsl(275, 100%, 97%)
+- Grayish purple: hsl(292, 16%, 49%)
+- Dark purple: hsl(292, 42%, 14%) */
+
+body{
+    
+background-color:hsl(275, 100%, 97%);
+
+  font-family: "Work Sans", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+#FAQs{
+  position: relative;
+  left: 60px;
+  bottom: 45px;
+}
+main{
+    background-color:white;
+    border-radius: 30px;
+    padding: 20px;
+   
+}
+.HideShow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#FirstAns{
+    display: none;
+}
+#SecondAns{
+    display: none;
+}
+#ThirdAns{
+    display: none;
+}
+#FourthAns{
+    display: none;
+}
+#FirstAns.More1{
+    display: block;
+}
+#SecondAns.More2{
+    display: block;
+}
+#ThirdAns.More3{
+    display: block;
+}
+#FourthAns.More4{
+    display: block;
+}
+
+@media screen and (min-width:768px) and (max-width:1440px){
+    main{
+        background-color:white;
+        border-radius: 30px;
+        padding: 30px;
+        width: 700px;
+        position: relative;
+        left: 320px;
+        bottom: 120px;
+        font-size: 16px;
+    }
+    h1{
+        position: relative;
+        bottom: 45px;
+        left: 50px;
+    }
+    hr{
+        margin: 20px;
+    }
+    section:hover{
+        background-color: whitesmoke;
+    }
+   
+   
+    
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+    main{
+        background-color:white;
+        border-radius: 30px;
+        padding: 30px;
+        width: 300px;
+        position: relative;
+        left: 0px;
+        bottom: 180px;
+        font-size: 16px;
+    }
+    hr{
+        margin: 20px;
+    }
+    h1{
+        position: relative;
+        bottom: 45px;
+        left: 50px;
+    }
+    p{
+    padding-top: 30px;
+    }
+    section:hover{
+        background-color: whitesmoke;
+    }
+    
+}
