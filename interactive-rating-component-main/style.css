@@ -1,0 +1,114 @@
+body{
+    background-color:black;
+    color: white;
+    font-family: "Overpass", sans-serif;
+    font-weight:400,700;
+}
+
+/* ### Primary
+
+- Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+
+
+#Rating1{
+    height: 400px;
+    width: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:460px;
+    top:50px;
+    background-color: hsl(213, 19%, 18%);
+    padding-left:50px; 
+    border-radius: 30px;
+    color: lightgray;
+}
+#Rating2{
+  height: 400px;
+  width: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left:400px;
+  top:50px;
+  background-color: hsl(213, 19%, 18%);
+  padding-left:50px; 
+  border-radius: 30px;
+  color:white;
+}
+/* span{
+    background-color:hsl(216, 12%, 54%) ;
+padding: 15px;
+margin-left: 10px;
+border-radius: 30px; 
+} */
+
+.imgcenter{
+ padding:40px 0 0 30px;
+ 
+}
+.rating{
+  margin-top: 30px;
+  padding:3px 0 0 15px;
+  width: 200px; 
+  height: 30px; 
+color: hsl(25, 97%, 53%); ;
+  border-radius: 20px; 
+ background-color:hsl(216, 12%, 8%);
+
+} 
+#circle{
+    display: flex;
+    margin-top: 10px;
+   
+  }
+.circle {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    background-color:hsl(216, 12%, 54%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px; 
+    font-size: 20px; 
+  }  
+  .circle:hover{ 
+    background-color:hsl(217, 12%, 63%);
+    color: whitesmoke;
+  }  
+   .btn:hover:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+  }
+  .circle.active{
+    background-color: hsl(25, 97%, 53%);
+  } 
+   #Rating2{
+    display: none;
+  } 
+
+  @media screen and (min-width:320px) and (max-width:767px) {
+    #Rating1{
+      position: relative;
+      width: 100%;
+      left: 0px;
+      padding-left: 20px;
+    }
+    #Rating2{
+      width: 100%;
+      position: relative;
+      left: 0px;
+    }
+
+  } 
