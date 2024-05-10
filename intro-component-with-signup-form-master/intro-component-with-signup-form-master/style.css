@@ -1,0 +1,356 @@
+body{
+    background-image:url("./images/bg-intro-desktop.png");
+    background-color:hsl(0, 100%, 74%)  ;
+    font-family: Poppins;
+    font-weight: 400, 500, 600, 700;
+}
+.custom-btn{
+    background-color:  hsl(249, 10%, 26%) ;
+    color: white;
+    width: 500px;
+    padding: 10px;
+    border-radius: 3%;
+    position: relative;
+    left: 700px;
+    bottom: 150px;
+}
+.custom-btn:hover {
+    background-color: hsl(249, 10%, 26%) ;
+    border-color: hsl(249, 10%, 26%) ;
+    color: white;
+}
+h1{
+    color: white; width:500px ; font-size: 50px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+.aside{
+    width: 500px;color: white;
+    position: relative;
+    top: 230px;
+    left: 100px;
+}
+#FormBOX{
+    position: relative;
+    bottom: 100px;
+
+}
+.container{
+    width: 500px;
+    background-color: white;
+    border-radius: 3%;
+    position: relative;
+    left: 700px;
+    bottom: 30px;
+    display: inline-block;
+}
+.Form{
+padding: 30px 40px;
+}
+.formcontrol{
+    padding-bottom: 5px;  
+  position: sticky;
+
+     
+ 
+} 
+
+.formcontrol input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10x;
+    width: 100%;
+    /* height: 50px; */
+    display: inline-block;
+}
+.formcontrol input:focus {
+    outline: 0;
+    border-color: #777;
+}
+i.fa-check-circle{
+    display: none;
+}
+.formcontrol.success i.fa-check-circle{
+    color:green;
+    display: inline-block;
+    position: relative;
+    left: 330px;
+    bottom: 30px;
+}
+
+i.fa-exclamation-circle {
+    display: none;
+}
+.formcontrol.error i.fa-exclamation-circle{
+    color: #e74c3c;
+    display: inline-block;
+    position: relative;
+    left: 330px;
+    bottom: 30px;
+}
+.form-control.error input:focus{
+   border-color:red;
+}
+.form-control.success input:focus {
+border-color:green;
+   
+} 
+.formcontrol small{
+    color: #e74c3c;
+    position: relative;
+    bottom: 0;
+    left: 140px;
+    display: none;
+    
+}
+.formcontrol.error small{
+position: relative;
+bottom: 0px;
+text-align:end;
+display: inline;
+
+}
+
+.Terms{
+    font-size: 10px;
+    position: relative;
+    bottom: -10px;
+    left: 40px;
+}
+.Services{
+    color: hsl(0, 100%, 74%) ;
+}
+#bieye{
+    display: inline-block;
+    position: sticky; 
+     
+}
+#ThankYou{
+    display: none;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    border-radius: 3%;
+    position: relative;
+    left: 700px;
+    bottom: 120px; 
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   
+}
+#Thanks{
+    width: 500px;
+    background-color: white;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    
+}
+.element {
+    line-height: 2; 
+}
+
+@media (max-width: 767px) {
+    h1{
+        color: white; 
+        width:75%;
+        font-size: 40px;
+        position: relative;
+        left: 70px;
+        top:100px;
+        z-index: 2;
+    }
+    .aside{
+        width: 75%;
+        color: white;
+        position: relative;
+        top: 125px;
+        left: 60px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .custom-btn{
+        background-color:  hsl(249, 10%, 26%) ;
+        color: white;
+        width: 75%;
+        padding: 10px;
+        border-radius: 3%;
+        position: relative;
+        left: 60px;
+        top: 150px;
+    }
+    #FormBOX{
+        position: relative;
+        bottom: 100px;
+    
+    }
+    .container{
+        width: 75%;
+        background-color: white;
+        border-radius: 3%;
+        position: relative;
+        left: 60px;
+        top:300px;
+        display: inline-block;
+    }
+    .formcontrol small{
+        color: #e74c3c;
+        position: relative;
+        bottom: -10px;
+        left: -10px;
+        display: none;
+        
+    }
+    .formcontrol.error small{
+    position: relative;
+    bottom: 0px;
+    text-align:end;
+    display: inline;
+    
+    }
+    #ThankYou{
+        display: none;
+        background-color: white;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width:75%;
+        border-radius: 3%;
+        position: relative;
+        left: 55px;
+        bottom: -210px; 
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   
+    }
+    #Thanks{
+        width: 100%;
+        background-color: white;
+        border-radius: 3%;
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        
+    }
+    .attribution{
+        position: relative;
+        top: 300px;
+        right: -70px;
+        width: 75%;
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        
+    }
+}
+@media screen and (min-width: 768px) and
+(max-width: 1024px){
+  
+        h1{
+            color: white; 
+            width:75% ;
+            font-size: 50px;
+            position: relative;
+            left: 100px;
+            top:100px;
+         
+        }
+        .aside{
+            width: 75%px;
+            color: white;
+            position: relative;
+            top: 125px;
+            left: 100px;
+            font-size: 25px;
+            text-align: left;
+        }
+        .custom-btn{
+            background-color:  hsl(249, 10%, 26%) ;
+            color: white;
+            width: 75%;
+            padding: 10px;
+            border-radius: 3%;
+            position: relative;
+            left: 80px;
+            top: 150px;
+        }
+        #FormBOX{
+            position: relative;
+            bottom: 100px;
+        
+        }
+        .container{
+            width: 75%;
+            background-color: white;
+            border-radius: 3%;
+            position: relative;
+            left: 80px;
+            top:300px;
+            display: inline-block;
+        }
+        .formcontrol small{
+            color: #e74c3c;
+            position: relative;
+            bottom: -10px;
+            left: -10px;
+            display: none;
+            
+        }
+        .formcontrol.error small{
+        position: relative;
+        bottom: 0px;
+        text-align:end;
+        display: inline;
+        
+        }
+        #ThankYou{
+            display: none;
+            background-color: white;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            width:75%;
+            border-radius: 3%;
+            position: relative;
+            left: 80px;
+            bottom: -210px; 
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   
+        }
+        #Thanks{
+            width: 100%;
+            background-color: white;
+            border-radius: 3%;
+            display: flex;
+            justify-content: center;  
+            align-items: center;
+            
+        }
+        .attribution{
+            position: relative;
+            top: 300px;
+            right: -60px;
+            width: 75%;
+            display: flex;
+            justify-content: center;  
+            align-items: center;
+            
+        }
+}
