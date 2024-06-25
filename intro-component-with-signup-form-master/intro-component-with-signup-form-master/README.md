@@ -1,4 +1,4 @@
-Deployed Code : https://signupformdonebyprashanth.netlify.app/
+Deployed Link : https://signupformdonebyprashanth.netlify.app/
 
 # Frontend Mentor - Intro component with sign up form
 
